@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics", "Dynamics\Dynamics.csproj", "{D26B83D5-D5D5-4AC4-8483-0E2B1664536A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamics", "Dynamics\Dynamics.csproj", "{D26B83D5-D5D5-4AC4-8483-0E2B1664536A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposable", "IDisposable\IDisposable.csproj", "{53A59301-33FB-494F-9F81-ED90C3290172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDisposable", "IDisposable\IDisposable.csproj", "{53A59301-33FB-494F-9F81-ED90C3290172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IClonable", "IClonable\IClonable.csproj", "{D37142F6-B02D-4949-BC73-56F214D29315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{53A59301-33FB-494F-9F81-ED90C3290172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A59301-33FB-494F-9F81-ED90C3290172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A59301-33FB-494F-9F81-ED90C3290172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37142F6-B02D-4949-BC73-56F214D29315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37142F6-B02D-4949-BC73-56F214D29315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37142F6-B02D-4949-BC73-56F214D29315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37142F6-B02D-4949-BC73-56F214D29315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
